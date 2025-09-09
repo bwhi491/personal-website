@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barry Whitehead | Personal Portfolio</title>
+    <title>Barry Whitehead | Cybersecurity Enthusiast</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,10 @@
     <!-- Header & Navigation -->
     <header class="bg-slate-900/70 backdrop-blur-lg sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-2xl font-bold text-white">Barry Whitehead</a>
+            <a href="#" class="flex items-center space-x-3 text-2xl font-bold text-white">
+                <img src="images/logo.png" alt="Barry Whitehead Logo" class="w-8 h-8 object-contain">
+                <span>Barry Whitehead</span>
+            </a>
             <div class="hidden md:flex space-x-8 items-center">
                 <a href="#about" class="hover:text-cyan-400 transition-colors duration-300">About</a>
                 <a href="#projects" class="hover:text-cyan-400 transition-colors duration-300">Projects</a>
@@ -49,7 +52,7 @@
         <!-- Hero Section -->
         <section id="hero" class="text-center py-20">
             <div class="max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">Creative Developer & Digital Storyteller</h1>
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-4 leading-tight">Cybersecurity Enthusiast</h1>
                 <p class="text-lg md:text-xl text-slate-400 mb-8">I build beautiful, responsive, and user-friendly websites that solve problems and delight users.</p>
                 <a href="#contact" class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-300">Get In Touch</a>
             </div>
@@ -59,11 +62,11 @@
         <section id="about" class="py-20">
             <div class="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 items-center">
                 <div class="md:col-span-1 flex justify-center">
-                    <img src="https://placehold.co/250x250/1e293b/94a3b8?text=Barry" alt="Barry Whitehead" class="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-slate-700">
+                    <img src="images/headshot.jpg" alt="Barry Whitehead" class="rounded-full w-48 h-48 md:w-64 md:h-64 object-cover border-4 border-slate-700">
                 </div>
                 <div class="md:col-span-2">
                     <h2 class="text-3xl font-bold text-white mb-4">About Me</h2>
-                    <p class="mb-4 text-slate-400">Leveraging 20 years of disciplined U.S. Army Special Operations experience, I am a highly adaptable and driven cybersecurity professional passionate about protecting digital assets. My academic journey at WGU, culminating in a BS and MS in Cybersecurity and Information Assurance, equipped me with practical skills in developing security policies, conducting risk assessments (NIST 800-53, PCI DSS), implementing secure cloud solutions, and performing network reconnaissance. Backed by a comprehensive suite of certifications including CompTIA Security+, Network+, CySA+, PenTest+, A+, ISC2 SSCP (Associate), EC-Council ECES, and CompTIA Project+, I excel at problem-solving under pressure and fostering team environments. I am eager to apply my unique blend of leadership, strategic thinking, and technical capabilities to an entry-level cybersecurity role and contribute to an organization's resilience. Connect with me on LinkedIn to explore my full professional journey and portfolio.</p>
+                    <p class="mb-4 text-slate-400">Leveraging 20 years of disciplined U.S. Army Special Operations experience, I am a highly adaptable and driven cybersecurity professional passionate about protecting digital assets. My academic journey at WGU, culminating in a BS and MS in Cybersecurity and Information Assurance, equipped me with practical skills in developing security policies, conducting risk assessments (NIST 800-53, PCI DSS), implementing secure cloud solutions, and performing network reconnaissance. Backed by a comprehensive suite of certifications including CompTIA Security+, Network+, CySA+, PenTest+, A+, ISC2 SSCP (Associate), EC-Council ECES, and CompTIA Project+, I excel at problem-solving under pressure and fostering team environments. I am eager to apply my unique blend of leadership, strategic thinking, and technical capabilities to an entry-level cybersecurity role and contribute to an organization's resilience. Connect with me on <a href="https://www.linkedin.com/in/barrywhitehead/" class="text-cyan-400 hover:text-cyan-300 transition-colors duration-300">LinkedIn</a> to explore my full professional journey and portfolio.</p>
                     <p class="text-slate-400">When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book.</p>
                 </div>
             </div>
@@ -107,7 +110,10 @@
         <section id="contact" class="py-20 text-center">
             <h2 class="text-3xl font-bold text-white mb-4">Get In Touch</h2>
             <p class="text-slate-400 max-w-2xl mx-auto mb-8">I'm currently available for freelance work and open to discussing new projects. Feel free to reach out!</p>
-            <a href="mailto:hello@barrywhitehead.com" class="bg-slate-800 hover:bg-slate-700 text-cyan-400 font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-300">hello@barrywhitehead.com</a>
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <a href="mailto:barry@barrywhitehead.com" class="bg-slate-800 hover:bg-slate-700 text-cyan-400 font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-300">barry@barrywhitehead.com</a>
+                <a href="tel:+19122572242" class="bg-slate-800 hover:bg-slate-700 text-cyan-400 font-bold py-3 px-8 rounded-lg text-lg transition-colors duration-300">(912) 257-2242</a>
+            </div>
         </section>
     </main>
 
